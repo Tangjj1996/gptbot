@@ -1,5 +1,6 @@
 import "dotenv";
 import { WechatyBuilder } from "wechaty";
+import { log } from "@/util";
 
 const bot = WechatyBuilder.build({
   name: "gptbot",
@@ -14,4 +15,4 @@ async function main() {
   await bot.start();
 }
 
-await main().catch();
+await main().catch(log.error);
