@@ -1,10 +1,17 @@
-import 'dotenv';
-import { WechatyBuilder } from 'wechaty';
+import "dotenv";
+import { WechatyBuilder } from "wechaty";
 
 const bot = WechatyBuilder.build({
-  name: 'gptbot',
-  puppet: 'wechaty-puppet-wechat',
+  name: "gptbot",
+  puppet: "wechaty-puppet-wechat",
   puppetOptions: {
-    uos: true 
-  }
-})
+    uos: true,
+  },
+});
+
+async function main() {
+  bot.on("scan", async () => {}).on("login", async () => {});
+  await bot.start();
+}
+
+await main().catch();
