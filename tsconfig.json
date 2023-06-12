@@ -4,10 +4,12 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
     },
-    "outDir": "dist"
+    "outDir": "dist",
+    "noEmit": true,
+    "skipLibCheck": true
   }
 }
