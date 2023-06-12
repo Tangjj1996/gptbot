@@ -6,6 +6,7 @@
 	"scripts": {
 		"start": "npm run dev",
 		"dev": "tsx watch src/main.ts",
+		"build": "tsx build.ts",
 		"lint": "eslint . && prettier -c src",
 		"lint:fix": "eslint . --fix && prettier -c -w src",
 		"prepare": "husky install"

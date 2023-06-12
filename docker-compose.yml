@@ -1,0 +1,9 @@
+version: '3'
+services:
+  gptbot:
+    image: gptbot
+    build: .
+    volumes:
+      - ./gptbot.memory-card.json:/app/gptbot.memory-card.json
+    env_file:
+      - .env
