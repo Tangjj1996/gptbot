@@ -24,6 +24,7 @@
 		"chalk": "^5.2.0",
 		"dotenv": "^16.0.3",
 		"langchain": "^0.0.78",
+		"node-schedule": "^2.1.1",
 		"openai": "^3.2.1",
 		"qrcode": "^1.5.3",
 		"wechaty": "^1.20.2",

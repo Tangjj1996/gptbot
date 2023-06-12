@@ -1,11 +1,11 @@
 import chalk from "chalk";
 
 class Logger {
-  info(msg: string) {
+  info(msg: unknown) {
     console.log(chalk.green(msg));
   }
 
-  error(msg: string | Error) {
+  error(msg: unknown | Error) {
     console.error(msg);
   }
 }
