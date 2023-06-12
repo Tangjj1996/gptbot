@@ -20,8 +20,11 @@
 		"tsx": "^3.12.7"
 	},
 	"dependencies": {
+		"@types/qrcode": "^1.5.0",
+		"chalk": "^5.2.0",
 		"dotenv": "^16.0.3",
 		"langchain": "^0.0.78",
+		"openai": "^3.2.1",
 		"qrcode": "^1.5.3",
 		"wechaty": "^1.20.2",
 		"wechaty-puppet-wechat": "^1.18.4"
