@@ -7,4 +7,4 @@ WORKDIR /app
 COPY . .
 
 RUN pnpm install --frozen-lockfile
-RUN pnpm server
+RUN pnpm run server
