@@ -5,7 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"start": "npm run dev",
-		"dev": "tsx src/main.ts",
+		"dev": "tsx watch src/main.ts",
 		"lint": "eslint . && prettier -c src",
 		"lint:fix": "eslint . --fix && prettier -c -w src",
 		"prepare": "husky install"

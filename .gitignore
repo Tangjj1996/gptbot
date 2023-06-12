@@ -142,4 +142,4 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-.gptbot.memory-card.*
+gptbot.memory-card.*
