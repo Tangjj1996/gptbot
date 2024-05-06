@@ -1,11 +1,9 @@
-FROM node:19 AS app
-
-RUN npm install pnpm -g
+FROM node:20 AS app
 
 WORKDIR /app
 
-COPY . .
+COPY . /app
 
-RUN pnpm install --frozen-lockfile
+RUN npm install
 
-CMD ["pnpm", "run", "server"]
+CMD ["npm", "run", "start"]
